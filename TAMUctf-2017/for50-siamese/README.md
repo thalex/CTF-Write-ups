@@ -17,7 +17,7 @@ $ file 8ff4da2f7368f800
 8ff4da2f7368f800: GIF image data, version 89a, 320 x 180
 ```    
 
-run the `binwalk` to see hide files...
+run the `binwalk` to see hidden files...
 
 ```bash
 $ binwalk 8ff4da2f7368f800  
