@@ -30,7 +30,7 @@ DECIMAL       HEXADECIMAL     DESCRIPTION
     3205027       0x30E7A3        End of Zip archive
 ```
 
-... and extract the zip file with `dcfldd`
+...and extract the zip file with `dcfldd`
 
 ```bash
 $ dcfldd if=8ff4da2f7368f800 bs=1 skip=3204803 of=file.zip
