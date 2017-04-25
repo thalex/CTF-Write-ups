@@ -9,7 +9,7 @@
 
 ## Write-up
 
-let´s see what the type of [file](https://github.com/dbaser/ctfs/blob/master/TAMUctf-2017/for50-siamese/8ff4da2f7368f800)
+let´s see what the type of [file](https://github.com/dbaser/ctfs/blob/master/TAMUctf-2017/stego50-siamese/8ff4da2f7368f800)
 
 ```bash
 $ file 8ff4da2f7368f800
