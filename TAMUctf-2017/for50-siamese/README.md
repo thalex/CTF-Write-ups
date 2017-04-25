@@ -1,8 +1,10 @@
-Stego - 50 Points
+# TAMUctf: Stego50: Siamese
 
-The internet loves cats. Whats not to love?
+Stego - 50 Points (324 solves)
 
-# Write-up
+> The internet loves cats. Whats not to love?
+
+## Write-up
 
 let´s see what the type of [file](https://github.com/dbaser/ctfs/blob/master/TAMUctf-2017/for50-siamese/8ff4da2f7368f800)
 
