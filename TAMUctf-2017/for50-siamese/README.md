@@ -1,6 +1,9 @@
 # TAMUctf: Stego50: Siamese
 
-Stego - 50 Points (324 solves)
+**Category:** Stego
+**Points:** 50
+**Solves:** 324
+**Description:**
 
 > The internet loves cats. Whats not to love?
 
