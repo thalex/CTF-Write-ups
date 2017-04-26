@@ -19,7 +19,7 @@ $ file 39e5b7d2b46fddf6
 39e5b7d2b46fddf6: PC bitmap, Windows 3.x format, 2988 x 1573 x 24
 ```    
 
-the description given us a hint: [*least significant*](https://en.wikipedia.org/wiki/Least_significant_bit), let's go with `zsteg` tool
+the description given us a hint: [**least significant**](https://en.wikipedia.org/wiki/Least_significant_bit), let's go with `zsteg` tool
 
 ```bash
 $ zsteg -a 39e5b7d2b46fddf6 | grep -i gigem
