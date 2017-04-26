@@ -1,5 +1,6 @@
 # TAMUctf: Stego100: Least Important
 
+
 **Category:** Steganography
 **Points:** 100
 **Solves:** 111
@@ -9,7 +10,7 @@
 
 ## Write-up
 
-let´s see what the type of [file](https://github.com/dbaser/ctfs/blob/master/TAMUctf-2017/stego100-ghost_busters/62beccfce5806775)
+let's see what's the type of the [file](https://github.com/dbaser/ctfs/blob/master/TAMUctf-2017/stego100-least_important/39e5b7d2b46fddf6)
 
 
 ```bash
@@ -18,7 +19,7 @@ $ file 39e5b7d2b46fddf6
 39e5b7d2b46fddf6: PC bitmap, Windows 3.x format, 2988 x 1573 x 24
 ```    
 
-the description give us a hint: [`least significant`](https://en.wikipedia.org/wiki/Least_significant_bit), let's go with `zsteg` tool
+the description given us a hint: [*least significant*](https://en.wikipedia.org/wiki/Least_significant_bit), let's go with `zsteg` tool
 
 ```bash
 $ zsteg -a 39e5b7d2b46fddf6 | grep -i gigem
