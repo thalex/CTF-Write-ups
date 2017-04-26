@@ -24,6 +24,6 @@ let's open the audio file with [Sonic Visualiser](http://www.sonicvisualiser.org
 
 ![stego100-ghost_busters-01.png)](https://raw.githubusercontent.com/dbaser/ctfs/master/TAMUctf-2017/stego100-ghost_busters/stego100-ghost_busters-01.png)
 
-![stego100-ghost_busters-02.png)](https://raw.githubusercontent.com/dbaser/ctfs/master/TAMUctf-2017/stego100-ghost_busters/stego100-ghost_busters-01.png)
+![stego100-ghost_busters-02.png)](https://raw.githubusercontent.com/dbaser/ctfs/master/TAMUctf-2017/stego100-ghost_busters/stego100-ghost_busters-02.png)
 
 The flag is: `gigem{now_you_see_me_7e22995b5a3ae7fd}`
