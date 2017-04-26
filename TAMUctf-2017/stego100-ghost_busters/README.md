@@ -12,20 +12,18 @@
 
 ## Write-up
 
-let´s see what the type of [file](https://github.com/dbaser/ctfs/blob/master/TAMUctf-2017/stego100-jpeg_ocean/5bcf0846dd3cf595)
+let´s see what the type of [file](https://github.com/dbaser/ctfs/blob/master/TAMUctf-2017/stego100-ghost_busters/62beccfce5806775)
 
 ```bash
-$ file 5bcf0846dd3cf595
-    
-5bcf0846dd3cf595: PC bitmap, Windows 3.x format, 440 x 440 x 32
+$ file 62beccfce5806775
+
+62beccfce5806775: RIFF (little-endian) data, WAVE audio, Microsoft PCM, 16 bit, mono 44100 Hz
 ```    
 
-run the `stegsolve` to see the flag!
+let's open the audio file with [Sonic Visualiser](http://www.sonicvisualiser.org/) and apply `Spectogram` filter
 
-```bash
-$ java -jar stegsolve.jar  
-```
+![stego100-ghost_busters-01.png)](https://raw.githubusercontent.com/dbaser/ctfs/master/TAMUctf-2017/stego100-ghost_busters/stego100-ghost_busters-01.png)
 
-![stego100-jpeg_ocean-01.png](https://github.com/dbaser/ctfs/blob/master/TAMUctf-2017/stego100-jpeg_ocean/stego100-jpeg_ocean-01.png)
+![stego100-ghost_busters-02.png)](https://raw.githubusercontent.com/dbaser/ctfs/master/TAMUctf-2017/stego100-ghost_busters/stego100-ghost_busters-01.png)
 
-The flag is: `gigem{water_w0rld_c4ae306239e48Be5}`
+The flag is: `gigem{now_you_see_me_7e22995b5a3ae7fd}`
