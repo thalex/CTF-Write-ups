@@ -24,8 +24,7 @@ the description given us a hint: [**least significant**](https://en.wikipedia.or
 ```bash
 $ zsteg -a 39e5b7d2b46fddf6 | grep -i gigem
 
-b1,rgb,lsb,xy       .. text: "58:gigem{this_is_pretty_significant_success_
-f2df944768204c64}ch"
+b1,rgb,lsb,xy       .. text: "58:gigem{this_is_pretty_significant_success_f2df944768204c64}ch"
 
 ```    
 
