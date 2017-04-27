@@ -32,7 +32,7 @@ after google, we found this [write-up](http://capturetheswag.blogspot.com.br/201
 
 final script! we have to convert `n` and `e` from base64 to ascii and `c` from base64 to hex
 
-{% e19d0853f9fb8f7721e8ad40531454e0 %}
+{% gist e19d0853f9fb8f7721e8ad40531454e0 %}
 
 run the script! (don't forget to clone this [repo](https://github.com/pablocelayes/rsa-wiener-attack) before running the script)
 
