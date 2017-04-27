@@ -18,7 +18,7 @@
 
 we have a lot of usb data on this pcap
 
-> img1
+![wireshark](https://raw.githubusercontent.com/dbaser/CTF-Write-ups/master/picoCTF-2017/for80-just_keyp_trying/for80-just_keyp_trying-01.png)
 
 let´s extract them with tshark
 
@@ -65,9 +65,9 @@ we need only numbers without zeros and separators
 ...
 ```   
 
-on the [pdf](http://www.usb.org/developers/hidpage/Hut1_12v2.pdf?), we have a key map of a USB Keyboard, just convert the output data with the key map
+on the [pdf](http://www.usb.org/developers/hidpage/Hut1_12v2.pdf?) (Page 53), we have a key map of a USB Keyboard, just convert the output data with the key map
 
-> img keymap
+![keymap](https://raw.githubusercontent.com/dbaser/CTF-Write-ups/master/picoCTF-2017/for80-just_keyp_trying/for80-just_keyp_trying-02.png)
 
 but wait! we have 29 lines of data, let's use a python script to do the work to us! :D
 
