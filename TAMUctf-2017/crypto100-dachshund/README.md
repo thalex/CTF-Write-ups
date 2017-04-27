@@ -38,16 +38,16 @@ there are some of types of [attacks](https://github.com/Ganapati/RsaCtfTool)
 
 Attacks :
 
-Weak public key factorization
-**Wiener's attack** (wiener-dog!)
-Hastad's attack (Small exponent attack)
-Small q (q<100,000)
-Common factor between ciphertext and modulus attack
-Fermat's factorisation for close p and q
-Gimmicky Primes method
-Past CTF Primes method
-Self-Initializing Quadratic Sieve (SIQS) using Yafu
-Common factor attacks across multiple keys
+* Weak public key factorization
+* **Wiener's attack** (wiener-dog!)
+* Hastad's attack (Small exponent attack)
+* Small q (q<100,000)
+* Common factor between ciphertext and modulus attack
+* Fermat's factorisation for close p and q
+* Gimmicky Primes method
+* Past CTF Primes method
+* Self-Initializing Quadratic Sieve (SIQS) using Yafu
+* Common factor attacks across multiple keys
 
 after google, we found this [write-up](http://capturetheswag.blogspot.com.br/2015/04/bctf-2015-warmup-crypto-challenge.html) with the solution to this chall, only replace `n`, `e` and `c`.
 
