@@ -18,7 +18,7 @@ $ file df5e76dedfe9afc0
 df5e76dedfe9afc0: ASCII text, with very long lines
 ```    
 
-the content of the file given us the `n` (modulus), `e` (public exponent) and `c` (cyphertext) (RSA crypto)
+the content of the file given us the `n` (modulus), `e` (public exponent) and `c` (cyphertext), RSA crypto here.
 
 ```bash
 $ cat df5e76dedfe9afc0 
@@ -30,16 +30,16 @@ N: NDY0NTE3NDY1NDA2Nzg1OTUzODU3NTU2NDU3NjQ5NTMxOTUwMjkzNzkyNDY5NzI5NzU5Njc1MDc1N
 
 ok, after searching for dachshund on google, we found a hint for the attack type, because de nickname from de dachshund is "Wiener-Dog" 
 
-![crypto100-dachsund.png](https://github.com/dbaser/ctfs/blob/master/TAMUctf-2017/crypto100-dachsund/crypto100-dachsund.png)
+![crypto100-dachsund.png](https://github.com/dbaser/CTF-Write-ups/blob/master/TAMUctf-2017/crypto100-dachshund/crypto100-dachsund.png)
 
-![dachshund.jpg](https://github.com/dbaser/ctfs/blob/master/TAMUctf-2017/crypto100-dachsund/dachshund.jpg)
+![dachshund.jpg](https://github.com/dbaser/CTF-Write-ups/blob/master/TAMUctf-2017/crypto100-dachshund/dachshund.jpg)
 
 there are some of types of [attacks](https://github.com/Ganapati/RsaCtfTool)
 
 Attacks :
 
 Weak public key factorization
-**Wiener's attack**
+**Wiener's attack** (wiener-dog!)
 Hastad's attack (Small exponent attack)
 Small q (q<100,000)
 Common factor between ciphertext and modulus attack
