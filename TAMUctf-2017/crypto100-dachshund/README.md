@@ -18,7 +18,7 @@ $ file df5e76dedfe9afc0
 df5e76dedfe9afc0: ASCII text, with very long lines
 ```    
 
-the content of the file given us the `n` (modulus), `e` (public exponent) and `c` (cyphertext)
+the content of the file given us the `n` (modulus), `e` (public exponent) and `c` (cyphertext) (RSA crypto)
 
 ```bash
 $ cat df5e76dedfe9afc0 
@@ -28,7 +28,26 @@ e: MzY3MTgyMDc5NDYzMjY5NDg2OTg3MDcyODc2OTg0MzE0MDM3NDg2OTA2Mjg4OTk3NTI1OTQ3MDUwO
 N: NDY0NTE3NDY1NDA2Nzg1OTUzODU3NTU2NDU3NjQ5NTMxOTUwMjkzNzkyNDY5NzI5NzU5Njc1MDc1NzM1MTU2MDUxMjgxNjI5NjcwNzk3OTIyNTM5NzUyODc1ODk1NTQ2MDAyNTc4MDg3NjgxNjcwNzAzMTEwNjYxMDc4NjcxMjg2ODYxNDQzMjUwNTc5Mzg2MzU0MjQ2MjY1NTU4MjcxNTU5MDM4MTYxNTI1ODExNjU5MjAzMDcyODY2MTgzNjYzNjQzMjU1MTYzMjAxMDc4NjY1Mjg4ODk4MDQzNjYyOTc4NjQ5MjYzMzc3OTUwOTQzMDU5MTE0MDE5MDM5OTI0MjM3NjczNzExNTE1MTcyMjAzNDcxNTQyNTQzODI1Mzg1NzQ0ODc4MDc0MzU4NTU3MTg5Mzcz
 ```    
 
+ok, after searching for dachshund on google, we found a hint for the attack type, because de nickname from de dachshund is "Wiener-Dog" 
 
+![crypto100-dachsund.png](https://github.com/dbaser/ctfs/blob/master/TAMUctf-2017/crypto100-dachsund/crypto100-dachsund.png)
+
+![dachshund.jpg](https://github.com/dbaser/ctfs/blob/master/TAMUctf-2017/crypto100-dachsund/dachshund.jpg)
+
+there are some of types of [attacks](https://github.com/Ganapati/RsaCtfTool)
+
+Attacks :
+
+Weak public key factorization
+**Wiener's attack**
+Hastad's attack (Small exponent attack)
+Small q (q<100,000)
+Common factor between ciphertext and modulus attack
+Fermat's factorisation for close p and q
+Gimmicky Primes method
+Past CTF Primes method
+Self-Initializing Quadratic Sieve (SIQS) using Yafu
+Common factor attacks across multiple keys
 
 after google, we found this [write-up](http://capturetheswag.blogspot.com.br/2015/04/bctf-2015-warmup-crypto-challenge.html) with the solution to this chall, only replace `n`, `e` and `c`.
 
