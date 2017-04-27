@@ -4,7 +4,7 @@
 **Points:** 140
 **Description:**
 
-> Identify the data contained within wigle and determine how to visualize it.
+> Identify the data contained within [wigle](https://github.com/dbaser/CTF-Write-ups/blob/master/picoCTF-2017/for140-connect_the_wigle/wigle) and determine how to visualize it.
 
 **Hints:**
 
@@ -16,7 +16,7 @@
 
 ## Write-up
 
-let´s see what the type of [file]()
+let´s see what the type of [file](https://github.com/dbaser/CTF-Write-ups/blob/master/picoCTF-2017/for140-connect_the_wigle/wigle)
 
 let´s extract the **Leftover Capture Data** with `tshark`
 
