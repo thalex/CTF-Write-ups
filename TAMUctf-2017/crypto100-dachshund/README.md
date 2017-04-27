@@ -1,6 +1,6 @@
 # TAMUctf: Crypto: Dachshund
 
-
+**Solved by** @dbaser and @shrimpgo
 **Category:** Cryptography
 **Points:** 100
 **Solves:** 66
