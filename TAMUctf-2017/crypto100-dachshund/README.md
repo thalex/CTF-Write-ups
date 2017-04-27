@@ -30,9 +30,9 @@ N: NDY0NTE3NDY1NDA2Nzg1OTUzODU3NTU2NDU3NjQ5NTMxOTUwMjkzNzkyNDY5NzI...
 
 ok, after searching for dachshund on google, we found a hint for the attack type, because de nickname from de dachshund is "Wiener-Dog" 
 
-![crypto100-dachsund.png](https://github.com/dbaser/CTF-Write-ups/blob/master/TAMUctf-2017/crypto100-dachshund/crypto100-dachsund.png)
+![crypto100-dachsund.png](https://raw.githubusercontent.com/dbaser/CTF-Write-ups/master/TAMUctf-2017/crypto100-dachshund/crypto100-dachsund.png)
 
-![dachshund.jpg](https://github.com/dbaser/CTF-Write-ups/blob/master/TAMUctf-2017/crypto100-dachshund/dachshund.jpg)
+![dachshund.jpg](https://raw.githubusercontent.com/dbaser/CTF-Write-ups/master/TAMUctf-2017/crypto100-dachshund/dachshund.jpg)
 
 there are some of types of [attacks](https://github.com/Ganapati/RsaCtfTool)
 
