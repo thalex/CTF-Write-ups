@@ -144,4 +144,4 @@ The flag is: `FLAG[PR355-0NWARDS-C98CCF99]`
 
 ## Update
 
-When I was writing this write-up, I found this [script](https://github.com/dbaser/CTF-Write-ups/blob/master/picoCTF-2017/for80-just_keyp_trying/usbkeymap2.py) from this [write-up](https://webstersprodigy.net/2012/11/09/csaw-2012-quals-tutorialwriteup/) that done the same job just by specifying the pcap file in the script.
+When I was writing this write-up, I found this [script](https://github.com/dbaser/CTF-Write-ups/blob/master/picoCTF-2017/for80-just_keyp_trying/usbkeymap2.py) from this [write-up](https://webstersprodigy.net/2012/11/09/csaw-2012-quals-tutorialwriteup/) that do the same job just by specifying the pcap file in the script.
