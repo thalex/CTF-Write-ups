@@ -4,7 +4,7 @@
 **Points:** 80
 **Description:**
 
-> Here's an interesting capture of some data. But what exactly is this data? Take a look: data.pcap
+> Here's an interesting capture of some data. But what exactly is this data? Take a look: [data.pcap](https://github.com/dbaser/CTF-Write-ups/blob/master/picoCTF-2017/for80-just_keyp_trying/data.pcap)
 
 **Hints:**
 
