@@ -16,11 +16,11 @@
 
 ## Write-up
 
-we have a lot of usb data on this pcap
+we have a lot of usb data on this pcap file
 
 ![wireshark](https://raw.githubusercontent.com/dbaser/CTF-Write-ups/master/picoCTF-2017/for80-just_keyp_trying/for80-just_keyp_trying-01.png)
 
-let´s extract them with tshark
+let´s extract the **Leftover Capture Data** with `tshark`
 
 ```bash
 [dbaser@pwn4food]$ tshark -r data.pcap -T fields -e usb.capdata
@@ -70,7 +70,7 @@ on the [pdf](http://www.usb.org/developers/hidpage/Hut1_12v2.pdf?) (Page 53), we
 
 ![keymap](https://raw.githubusercontent.com/dbaser/CTF-Write-ups/master/picoCTF-2017/for80-just_keyp_trying/for80-just_keyp_trying-02.png)
 
-but wait! we have 29 lines of data, let's use a python script to do the work for us! :D
+but wait motherfucker! we have 29 lines of data, let's use a python script to do the work for us! :D
 
 ```python
 #!/usr/bin/python
@@ -144,4 +144,4 @@ The flag is: `FLAG[PR355-0NWARDS-C98CCF99]`
 
 ## Update
 
-This [script](https://github.com/dbaser/CTF-Write-ups/blob/master/picoCTF-2017/for80-just_keyp_trying/usbkeymap2.py) from this [write-up](https://webstersprodigy.net/2012/11/09/csaw-2012-quals-tutorialwriteup/)do the same work only specifying the pcap file in the script.
+This [script](https://github.com/dbaser/CTF-Write-ups/blob/master/picoCTF-2017/for80-just_keyp_trying/usbkeymap2.py) from this [write-up](https://webstersprodigy.net/2012/11/09/csaw-2012-quals-tutorialwriteup/) do the same work only specifying the pcap file in the script.
