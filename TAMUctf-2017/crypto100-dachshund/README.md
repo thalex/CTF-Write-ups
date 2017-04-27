@@ -39,7 +39,7 @@ there are some of types of [attacks](https://github.com/Ganapati/RsaCtfTool)
 Attacks :
 
 * Weak public key factorization
-* **Wiener's attack** (wiener-dog!)
+* **Wiener's attack** (*wiener-dog!*)
 * Hastad's attack (Small exponent attack)
 * Small q (q<100,000)
 * Common factor between ciphertext and modulus attack
