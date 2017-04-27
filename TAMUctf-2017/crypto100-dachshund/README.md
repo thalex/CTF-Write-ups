@@ -1,6 +1,6 @@
 # TAMUctf: Crypto: Dachshund
 
-**Solved by** @dbaser and @shrimpgo
+**Solved by:** @dbaser and @shrimpgo
 **Category:** Cryptography
 **Points:** 100
 **Solves:** 66
@@ -34,9 +34,7 @@ ok, after searching for dachshund on google, we found a hint for the attack type
 
 ![dachshund.jpg](https://raw.githubusercontent.com/dbaser/CTF-Write-ups/master/TAMUctf-2017/crypto100-dachshund/dachshund.jpg)
 
-there are some of types of [attacks](https://github.com/Ganapati/RsaCtfTool)
-
-Attacks :
+there are some of types of [attacks:](https://github.com/Ganapati/RsaCtfTool)
 
 * Weak public key factorization
 * **Wiener's attack** (*wiener-dog!*)
@@ -55,7 +53,7 @@ final script! we have to convert `n` and `e` from base64 to ascii and `c` from b
 
 {% gist e19d0853f9fb8f7721e8ad40531454e0 %}
 
-run the script! (don't forget to clone this [repo](https://github.com/pablocelayes/rsa-wiener-attack) before running the script)
+run the script and don't forget to clone this [repo](https://github.com/pablocelayes/rsa-wiener-attack) before running the script
 
 ```bash 
 $ python rsa.py  
