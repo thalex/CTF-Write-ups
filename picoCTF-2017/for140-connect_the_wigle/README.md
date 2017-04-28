@@ -39,7 +39,7 @@ android_metadata  location          network
 7|81:6c:9b:66:06:ab|-81|-3.96|-1.95|142.0|4.0|1490966713
 ...
 ```
-...and extract lat,lon changing the separator `|` to `,` with awk
+...and extract latitude, longitude and changing the separator `|` to `,` with awk
 
 ```bash
 [dbaser@pwn4food]$ sqlite3 wigle "select lat,lon from location;" | awk -F'|' 'BEGIN{OFS=",";} {print $1,$2}' 
