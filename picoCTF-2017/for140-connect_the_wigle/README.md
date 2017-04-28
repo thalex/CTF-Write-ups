@@ -19,13 +19,13 @@
 let's see what's the type of the [file](https://github.com/dbaser/CTF-Write-ups/blob/master/picoCTF-2017/for140-connect_the_wigle/wigle)
 
 ```bash
-[dbaser@pwn4food]$ file wigle
+[dbaser@pwn4food:~]$ file wigle
 wigle: SQLite 3.x database, last written using SQLite version 3008007
 ```    
 hmm.. we need to explore the sql tables...
 
 ```bash
-[dbaser@pwn4food]$ sqlite3 wigle .table
+[dbaser@pwn4food:~]$ sqlite3 wigle .table
 android_metadata  location          network 
 
 [dbaser@pwn4food]$ sqlite3 wigle "select * from location;" 
@@ -42,7 +42,7 @@ android_metadata  location          network
 ...and extract latitude, longitude and changing the separator `|` to `,` with awk
 
 ```bash
-[dbaser@pwn4food]$ sqlite3 wigle "select lat,lon from location;" | awk -F'|' 'BEGIN{OFS=",";} {print $1,$2}' 
+[dbaser@pwn4food:~]$ sqlite3 wigle "select lat,lon from location;" | awk -F'|' 'BEGIN{OFS=",";} {print $1,$2}' 
 -4.0,-1.96
 -3.99,-1.96
 -3.98,-1.96
