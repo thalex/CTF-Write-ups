@@ -53,7 +53,7 @@ android_metadata  location          network
 ...
 ```
 
-just copy and paste the results from the last command in this [site](http://www.hamstermap.com/quickmap.php) and get the flag!
+just copy and paste the results from the last command in this [site](http://www.hamstermap.com/quickmap.php) (tks @intrd 4 the site) and get the flag!
 
 ![flag](https://raw.githubusercontent.com/dbaser/CTF-Write-ups/master/picoCTF-2017/for140-connect_the_wigle/for140-connect_the_wigle.png)
 
