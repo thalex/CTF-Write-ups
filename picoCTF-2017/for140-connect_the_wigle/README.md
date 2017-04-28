@@ -22,7 +22,7 @@ let's see what's the type of the [file](https://github.com/dbaser/CTF-Write-ups/
 [dbaser@pwn4food]$ file wigle
 wigle: SQLite 3.x database, last written using SQLite version 3008007
 ```    
-hmmm.. need to explore the sql tables...
+hmm.. we need to explore the sql tables...
 
 ```bash
 [dbaser@pwn4food]$ sqlite3 wigle .table
@@ -53,7 +53,7 @@ android_metadata  location          network
 ...
 ```
 
-copy and paste the results from the last command to this [site](http://www.hamstermap.com/quickmap.php)
+just copy and paste the results from the last command in this [site](http://www.hamstermap.com/quickmap.php) and get the flag!
 
 ![flag](https://raw.githubusercontent.com/dbaser/CTF-Write-ups/master/picoCTF-2017/for140-connect_the_wigle/for140-connect_the_wigle.png)
 
