@@ -55,6 +55,6 @@ android_metadata  location          network
 
 copy and paste the results from the last command to this [site](http://www.hamstermap.com/quickmap.php)
 
-!()
+![flag](https://raw.githubusercontent.com/dbaser/CTF-Write-ups/master/picoCTF-2017/for140-connect_the_wigle/for140-connect_the_wigle.png)
 
 The flag is: `FLAG{FOUND_M3_9114AFFC}`
