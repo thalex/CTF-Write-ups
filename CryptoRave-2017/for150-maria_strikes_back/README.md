@@ -30,7 +30,7 @@ we have a img file of the "new haircut" of Maria, let's analyze the file to find
 
 trying analisys with common tool like strings, binwalk and stegsolve and nothing, but wait! there is a clue in this conversation with 'Maria' and 'Sandrinha', look with more attention, it looks like a password, right?
 
-![img](https://raw.githubusercontent.com/dbaser/CTF-Write-ups/master/CryptoRave-2017/for150-maria_strikes_back/img.jpeg)
+![img](https://raw.githubusercontent.com/dbaser/CTF-Write-ups/master/CryptoRave-2017/for150-maria_strikes_back/for150-maria_strikes_back-05.png)
 
 so, let's try steghide tool with the possible password
 
