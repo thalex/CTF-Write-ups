@@ -4,10 +4,7 @@
 **Points:** 150
 **Description:**
 
-> Maria was fired from the company from which she was caught leaking data. She didn't learn the lesson. Now, Maria has met Sandrinha and they're planning something under the covers. The sysadmin took a dump from the network from one of their hosts. See if you can find something. 
-
-> Take a look: [data.pcap](https://github.com/dbaser/CTF-Write-ups/blob/master/CryptoRave-2017/for150-maria_strikes_back/logs.pcap)
-
+> Maria was fired from the company from which she was caught leaking data. She didn't learn the lesson. Now, Maria has met Sandrinha and they're planning something under the covers. The sysadmin took a [dump](https://github.com/dbaser/CTF-Write-ups/blob/master/CryptoRave-2017/for150-maria_strikes_back/logs.pcap) from the network from one of their hosts. See if you can find something. 
 
 ## Write-up
 
