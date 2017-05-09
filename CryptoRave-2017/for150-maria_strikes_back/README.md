@@ -16,7 +16,7 @@ looks like a convesartion with `Maria` and `Sandrinha`, we need to find what `Ma
 
 ![img](https://raw.githubusercontent.com/dbaser/CTF-Write-ups/master/CryptoRave-2017/for150-maria_strikes_back/for150-maria_strikes_back-02.png)
 
-hmm, found a JPEG signature in the packets, let's `Follow TCP Stream` again!
+hmm, found a [JPEG signature](https://en.wikipedia.org/wiki/JPEG_File_Interchange_Format) in the packets, let's `Follow TCP Stream` again!
 
 ![img](https://raw.githubusercontent.com/dbaser/CTF-Write-ups/master/CryptoRave-2017/for150-maria_strikes_back/for150-maria_strikes_back-03.png)
 
