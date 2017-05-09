@@ -6,26 +6,26 @@
 
 > Maria was fired from the company from which she was caught leaking data. She didn't learn the lesson. Now, Maria has met Sandrinha and they're planning something under the covers. The sysadmin took a dump from the network from one of their hosts. See if you can find something. 
 
-> Take a look: [data.pcap](https://github.com/dbaser/CTF-Write-ups/blob/master/picoCTF-2017/for80-just_keyp_trying/data.pcap)
+> Take a look: [data.pcap](https://github.com/dbaser/CTF-Write-ups/blob/master/CryptoRave-2017/for150-maria_strikes_back/logs.pcap)
 
 
 ## Write-up
 
 after several analysis on pcap file, we found a strange PC conversation in the port 1337, let's apply a filter `tcp.port eq 1337` to limit this conversation and `Follow TCP Stream` to read this entire conversation
 
-![wireshark](https://raw.githubusercontent.com/dbaser/CTF-Write-ups/master/picoCTF-2017/for80-just_keyp_trying/for80-just_keyp_trying-01.png)
+![wireshark](https://raw.githubusercontent.com/dbaser/CTF-Write-ups/master/CryptoRave-2017/for150-maria_strikes_back/for150-maria_strikes_back-01.png)
 
 looks like a convesartion with `Maria` and `Sandrinha`, we need to find what `Maria` tryed to sent to `Sandrinha`
 
-![wireshark](https://raw.githubusercontent.com/dbaser/CTF-Write-ups/master/picoCTF-2017/for80-just_keyp_trying/for80-just_keyp_trying-01.png)
+![wireshark](https://raw.githubusercontent.com/dbaser/CTF-Write-ups/master/CryptoRave-2017/for150-maria_strikes_back/for150-maria_strikes_back-02.png)
 
 hmm, found a JPEG signature in the packets, let's `Follow TCP Stream` again!
 
-![wireshark](https://raw.githubusercontent.com/dbaser/CTF-Write-ups/master/picoCTF-2017/for80-just_keyp_trying/for80-just_keyp_trying-01.png)
+![wireshark](https://raw.githubusercontent.com/dbaser/CTF-Write-ups/master/CryptoRave-2017/for150-maria_strikes_back/for150-maria_strikes_back-03.png)
 
 and save the data in raw format to view the file
 
-![wireshark](https://raw.githubusercontent.com/dbaser/CTF-Write-ups/master/picoCTF-2017/for80-just_keyp_trying/for80-just_keyp_trying-01.png)
+![wireshark](https://raw.githubusercontent.com/dbaser/CTF-Write-ups/master/CryptoRave-2017/for150-maria_strikes_back/for150-maria_strikes_back-04.png)
 
 ```bash
 [dbaser@pwn4food]$ tshark -r data.pcap -T fields -e usb.capdata
