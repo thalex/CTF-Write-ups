@@ -28,7 +28,7 @@ we have a img file of the "new haircut" of Maria, let's analyze the file to find
 
 ![img](https://raw.githubusercontent.com/dbaser/CTF-Write-ups/master/CryptoRave-2017/for150-maria_strikes_back/img.jpeg)
 
-we tried analyze this file with common tools like strings, binwalk and stegsolve and nothing, but wait! there is a clue in this conversation between 'Maria' and 'Sandrinha', look with more attention, it looks like a password, right?
+we tried analyze this file with common tools like `strings`, `binwalk`, `stegsolve` and nothing, but wait! there is a clue in this conversation between 'Maria' and 'Sandrinha', look with more attention, it looks like a password, right?
 
 ![img](https://raw.githubusercontent.com/dbaser/CTF-Write-ups/master/CryptoRave-2017/for150-maria_strikes_back/for150-maria_strikes_back-05.png)
 
