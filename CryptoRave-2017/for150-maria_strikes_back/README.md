@@ -32,7 +32,7 @@ we tried analyze this file with common tools like strings, binwalk and stegsolve
 
 ![img](https://raw.githubusercontent.com/dbaser/CTF-Write-ups/master/CryptoRave-2017/for150-maria_strikes_back/for150-maria_strikes_back-05.png)
 
-so, let's try 'steghide' tool with the possible password
+so, let's try `steghide` tool with the possible password
 
 ```bash
 [dbaser@pwn4food]$ steghide extract -sf img.jpeg
@@ -40,15 +40,15 @@ Enter passphrase:
 wrote extracted data to "flag.zip".
 ```   
 
-the "flag.zip" is protected with a password, let's bruteforce it with 'fcrackzip' tool
+the "flag.zip" is protected with a password, let's bruteforce it with `fcrackzip` tool
 
 ```bash
 [dbaser@pwn4food]$ fcrackzip -v -u -D -p /usr/share/wordlists/rockyou.txt flag.zip
 found file 'flag.txt', (size cp/uc     48/    36, flags 9, chk 5c64)
-PASSWORD FOUND!!!!: pw == ******
+PASSWORD FOUND!!!!: pw == ********
 ```   
 
 unzip the file and get the flag!
 
-Ps. We not show the flag because this challenge is open to all in the [shellterlabs](https://shellterlabs.com) website.
+**Ps.** We not show the flag because this challenge is open to all in the awesome [shellterlabs](https://shellterlabs.com) website.
 
